@@ -56,10 +56,10 @@ parameters:
 - name: vnet_subnet
   displayName: Target VNET & Subnet
   type: string
-  default: "SAPDemoEnvironmentNetwork/subnets/sapdevsubnet"
+  default: "Olklause_MySAP_Spoke_VN02/subnets/Olklause_MySAP_Spoke_SN03"
   values:
-  - "SAPDemoEnvironmentNetwork/subnets/sapdevsubnet"
-  - "SAPSpokeGWC/subnets/sapdevsubnet"
+  - "Olklause_MySAP_Spoke_VN02/subnets/Olklause_MySAP_Spoke_SN03"
+  - "Olklause_MySAP_Spoke_VN02/subnets/Olklause_MySAP_Spoke_SN02"
   # Adapt according to your target landing zone
   # "<VNET>/subnets/<subnet>"
 
